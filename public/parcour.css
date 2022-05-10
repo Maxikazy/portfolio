@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(rgb(255, 150, 225), rgb(255, 230, 250));
+    background: linear-gradient(rgb(255, 151, 151), rgb(255, 230, 250));
     background-size: cover;
     background-repeat: no-repeat;
     width: 1508px;
@@ -7,15 +7,15 @@ body {
     
   }
 
-  p {
-    top: 150px;
-    font-size: 30px;
-   margin-right: 350px;
-   
-  }
-
-
+  
   .retour {
     position: absolute;
     bottom: 1px;
+  }
+
+
+  .stage {
+      position: relative;
+      left: 500px;
+      bottom: 145px;
   }

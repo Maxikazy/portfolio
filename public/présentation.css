@@ -1,42 +1,22 @@
 body {
-    width: 1508px;
-    margin: 0 auto;
-    
-  }
-
-  .diaz {
-      position: relative;
-      width: 50%;
-  }
-
+  width: 1508px;
+  margin: 0 auto;
   
-
-.textediaz {
-    position: absolute;
-    text-align: center;
-     color: transparent; 
-    transition: all 1s ease-out;
-    top: -5%;
-    padding: 21% 32.5%;
 }
 
-.diaz:hover .textediaz {
-  color: white;
-  opacity: 1;
-  background-color: rgba(0, 0, 0, 0.6);
+.paraph {
+  text-align: center;
 }
-
-
-
-
-.hacker {
+  .diaz {
     position: relative;
     width: 50%;
+    bottom: 230px;
+    left: 650px;
 }
 
 
 
-.textehacker {
+.textediaz {
   position: absolute;
   text-align: center;
    color: transparent; 
@@ -45,8 +25,88 @@ body {
   padding: 21% 32.5%;
 }
 
-.hacker:hover .textehacker {
+.diaz:hover .textediaz {
+color: white;
+opacity: 1;
+background-color: rgba(0, 0, 0, 0.6);
+} 
+
+
+
+
+.cyber {
+  position: relative;
+  width: 50%;
+top: 150px;
+left: 80px;
+}
+
+
+
+.textecyber {
+position: absolute;
+text-align: center;
+color: transparent;
+transition: all 1s ease-out;
+top: -7%;
+left: 0%;
+padding: 20.5% 26.5%;
+}
+
+.cyber:hover .textecyber {
+color: white;
+opacity: 1;
+background-color: rgba(0, 0, 0, 0.6);
+}  
+
+
+
+.formation {
+  position: relative;
+  width: 50%;
+  left: 750px;
+    bottom: 280px;
+}
+
+
+
+.texteformation {
+position: absolute;
+text-align: center;
+color: transparent;
+transition: all 1s ease-out;
+top: -5%;
+padding: 23% 29.5%;
+}
+
+.formation:hover .texteformation {
 color: white;
 opacity: 1;
 background-color: rgba(0, 0, 0, 0.6);
 }
+
+
+
+.infos {
+position: relative;
+width: 50%;
+top: 185px;
+}
+
+
+
+.texteinfos {
+position: absolute;
+text-align: center;
+color: transparent;
+transition: all 1s ease-out;
+top: -7%;
+padding: 18% 25%;
+}
+
+.infos:hover .texteinfos {
+color: white;
+opacity: 1;
+background-color: rgba(0, 0, 0, 0.6);
+}
+

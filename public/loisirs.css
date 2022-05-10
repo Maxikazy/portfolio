@@ -1,11 +1,22 @@
 body {
     background: linear-gradient(rgb(159, 202, 246), rgb(255, 230, 250));
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-p {
+
+.texte{
     position: relative;
+
+}
+
+
+p {
+    
     top: 150px;
     font-size: 30px;
+   margin-right: 350px;
+   
     
     
 }
@@ -13,15 +24,17 @@ p {
 
 
 .gamer{
-   
+    position: absolute;
     float: right;
-   
+   left: 800px;
+   top: 160px;
    
 }
 
 .mma{
-   
+   position: absolute;
     float: right;
+   left: 1350px;
     
     
 }

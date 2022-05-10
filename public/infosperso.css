@@ -1,0 +1,21 @@
+body {
+    background: linear-gradient(rgb(250, 214, 161), rgb(255, 230, 250));
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1508px;
+    margin: 0 auto;
+    
+  }
+
+  p {
+    top: 150px;
+    font-size: 30px;
+   margin-right: 350px;
+   
+  }
+
+
+  .retour {
+    position: absolute;
+    bottom: 1px;
+  }

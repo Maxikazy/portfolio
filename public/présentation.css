@@ -6,33 +6,47 @@ body {
 
   .diaz {
       position: relative;
-      
+      width: 50%;
   }
 
   
 
 .textediaz {
-   position: absolute;
-    top: 150px;
-    left: 225px;
-    height: 500px;
-    width: 500px;
-    color: transparent;
+    position: absolute;
+    text-align: center;
+     color: transparent; 
     transition: all 1s ease-out;
+    top: -5%;
+    padding: 21% 32.5%;
+}
+
+.diaz:hover .textediaz {
+  color: white;
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 
-.diaz :hover {
-    color: white;
-    background-color: rgb(108, 108, 108);
-    z-index: 7;
-  
+
+
+.hacker {
+    position: relative;
+    width: 50%;
 }
 
-.imagediaz {
-    background-color: rgb(79, 79, 79);
+
+
+.textehacker {
+  position: absolute;
+  text-align: center;
+   color: transparent; 
+  transition: all 1s ease-out;
+  top: -5%;
+  padding: 21% 32.5%;
 }
 
-.imagediaz :hover {
-    background-color: rgba(0, 0, 0, 0.6);
-    }
+.hacker:hover .textehacker {
+color: white;
+opacity: 1;
+background-color: rgba(0, 0, 0, 0.6);
+}

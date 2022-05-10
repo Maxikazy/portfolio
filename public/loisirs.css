@@ -1,0 +1,32 @@
+body {
+    background: linear-gradient(rgb(159, 202, 246), rgb(255, 230, 250));
+}
+
+p {
+    position: relative;
+    top: 150px;
+    font-size: 30px;
+    
+    
+}
+
+
+
+.gamer{
+   
+    float: right;
+   
+   
+}
+
+.mma{
+   
+    float: right;
+    
+    
+}
+
+.retour{
+    position: relative;
+    top: 243px;
+}
